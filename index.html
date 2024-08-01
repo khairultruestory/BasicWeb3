@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Contract Interaction</title>
+</head>
+<body>
+    <h1>Ethereum Contract Interaction</h1>
+    <input type="text" id="contractAddress" placeholder="Enter Contract Address">
+    <button onclick="connectContract()">Connect</button>
+    <div id="contractInfo">
+        <p>Balance: <span id="contractBalance">N/A</span></p>
+        <p>Owner: <span id="contractOwner">N/A</span></p>
+        <p>Functions:</p>
+        <ul id="contractFunctions"></ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
